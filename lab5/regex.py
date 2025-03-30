@@ -31,10 +31,6 @@ def task8(text):
     lambda match: (" " if match.start() > 0 else "") + (match.group(0)[0]) + (" " if match.end() < len(text) else ""),
     text
   )
-  return re.split(
-    pattern8,
-    text
-  )
 
 
 pattern9 = r"[A-Za-z][A-Z]"

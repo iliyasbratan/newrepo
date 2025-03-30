@@ -27,5 +27,4 @@ if __name__ == "__main__":
   print_sibling_days(now)
 
   print(drop_ms(now))
-  # print(second_diff(now, datetime.datetime.combine(datetime.date(2023, 1, 1), datetime.datetime.now().time())))
   # print(second_diff(now, datetime.datetime.combine(datetime.date(2025, 1, 22), datetime.datetime.now().time())))
