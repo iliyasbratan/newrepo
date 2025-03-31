@@ -2,16 +2,15 @@ import pygame
 
 pygame.init()
 
-# Параметры экрана
+
 WIDTH, HEIGHT = 500, 500
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Moving Ball")
 
-# Цвета
 WHITE = (255, 255, 255)
 RED = (255, 0, 0)
 
-# Параметры шара
+
 radius = 25
 x, y = WIDTH // 2, HEIGHT // 2
 speed = 20

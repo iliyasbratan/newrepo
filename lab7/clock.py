@@ -59,7 +59,7 @@ min_hand_angle = 0
 INITIAL_SEC_HAND_ANGLE = 58
 sec_hand_angle = 0
 SPEED = 1
-while "Құлдық":
+while True:
   for event in pygame.event.get():
     if event.type == pygame.locals.QUIT:
       pygame.quit()
